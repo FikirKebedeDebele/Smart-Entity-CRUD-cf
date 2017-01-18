@@ -1,0 +1,8 @@
+---
+applications:
+  - name: SmartEntities.Fikir
+    buildpack: java_buildpack
+    path: target/SmartEntities-1.0.0.jar
+services:
+    - postgres_sv
+    - redis_sv 
