@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: MicroserviceBoot_fikir
+  - name: MicroserviceBoot_fikirKD
     buildpack: java_buildpack
     path: target/MicroserviceBoot-0.0.1.war
 services:
