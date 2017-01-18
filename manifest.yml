@@ -1,8 +1,8 @@
 ---
 applications:
-  - name: SmartEntities.Fikir
+  - name: MicroserviceBoot_fikir
     buildpack: java_buildpack
-    path: target/SmartEntities-1.0.0.jar
+    path: target/MicroserviceBoot-0.0.1.war
 services:
     - postgres_sv
     - redis_sv 
