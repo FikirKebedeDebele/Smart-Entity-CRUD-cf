@@ -2,7 +2,7 @@
 applications:
   - name: MicroserviceBoot_fikirKD
     buildpack: java_buildpack
-    path: target/MicroserviceBoot-0.0.1.war
+    path: target/MicroserviceBoot-0.0.1.jar
 services:
     - postgres_sv
     - redis_sv 
